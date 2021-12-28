@@ -14,7 +14,7 @@
 # http method
 
 # middleware
-1. 응답 요청 과정에서 끼워놓는 로직
+1. 응답 요청 과정에서 로직을 끼워넣기위한 함수
 2. use.app((req,res,next)=>{})
 
 # multer
