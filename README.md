@@ -6,3 +6,9 @@
 5. 프로젝트로 이동 후 npm i : init
 6. 서버 실행 : npm start or node ./bin/www
 7. nodemon 이용 : nodemon ./bin/www
+
+# Routing
+1. routes/index.js 에서 작업
+2. bin/www : 포트 값 저장
+
+# http method
