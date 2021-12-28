@@ -12,3 +12,17 @@
 2. bin/www : 포트 값 저장
 
 # http method
+
+# middleware
+1. 응답 요청 과정에서 끼워놓는 로직
+2. use.app((req,res,next)=>{})
+
+# multer
+1. 파일 업로드할 떄 유용한 패키지
+2. upload.single("image");
+    * upload : upload에저장
+    * single : 파일 한개 업로드, image라는 FormData 전송
+3. npm i multer
+4. req.file : 업로드 된 파일
+5. req.body : 나머지 요청 데이터
+6. diskStorage, dest
