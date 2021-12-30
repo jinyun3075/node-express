@@ -18,7 +18,7 @@
 2. use.app((req,res,next)=>{})
 
 # multer
-1. 파일 업로드할 떄 유용한 패키지
+1. 파일 업로드할 때 유용한 패키지
 2. upload.single("image");
     * upload : upload에저장
     * single : 파일 한개 업로드, image라는 FormData 전송
@@ -26,3 +26,18 @@
 4. req.file : 업로드 된 파일
 5. req.body : 나머지 요청 데이터
 6. diskStorage, dest
+
+# EJS (Embedded Javascript Template)
+1. 템플릿엔진
+2. <% Javascript %> : js 문법 사용
+3. <%= val %> : render에서 받아오는 변수 사용
+```js
+const express = require("express");
+const router = express.Router();
+
+router.get("/ejs", (req, res) => {
+    res.render("template",{data: "test data"});
+});
+
+module.exports = router; // app.js 연결
+```
