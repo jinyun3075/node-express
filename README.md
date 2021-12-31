@@ -149,7 +149,7 @@ mongoose.connect( // atlas / mongoose 연결
 )
 ```
 
-# monggose
+# mongoose
 1. Schema 사용예
 ``` js
 const mongoose = require("mongoose");
