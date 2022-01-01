@@ -49,7 +49,7 @@ module.exports = router; // app.js 연결
 
 # express-session 패키지
 1. npm i express-session
-2. 저장이 필요한 정보를 session에 저장하여 연결상태를 유지하는 기능
+2. 저장이 필요한 정보를 서버session에 저장하여 연결상태를 유지하는 기능
 
 ```js
 const session = require("express-session");
